@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-wrapper{
+    width: 100%;
+    text-align: center;
+    background-color: crimson;
+    height: 46px;
+    line-height: 46px;
+}
+
+.brand-logo {
+    font-weight: 600;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    margin: 1em 0;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 1em;
+    background-color: bisque;
+    padding: 1em;
+}
+
+.card-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+    height: 1.5em;
+    line-height: 1.5em;
+    color: azure;
+    padding: .2em;
+    border-radius: .2em;
+    margin: 2px;
+}
+
+.btn-primary {
+    background-color: blueviolet;
+}
